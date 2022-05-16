@@ -20,4 +20,4 @@ btnEnviar.addEventListener("click", () => {
       console.log ("Felicitaciones obtuviste un descuento:" , compra);
       } else {
         console.log ("Su compra es:" , compra);
-      }
+      });

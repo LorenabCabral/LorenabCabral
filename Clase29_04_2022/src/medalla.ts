@@ -6,16 +6,15 @@ rotulo1.innerHTML = "Ingrese la posicion de llegada del competidor:";
 
 btnEnv.addEventListener ("click" , () => {
   let posicionLlegada: number = Number (dato.value);
-  if (posicionLlegada == 1) {
+  if (posicionLlegada == 1) { 
   console.log ("Entregar Medalla de Oro");
-} else {
+  } else {
   if (posicionLlegada == 2) {
   console.log ("Entregar Medalla de Plata");
-} else {
+  } else {
   if (posicionLlegada == 3) {
   console.log ("Entregar Medalla de Bronce");
-} else {
-  if (posicionLlegada =>4 ) {
+  } else {
+  if (posicionLlegada =>4) {
   console.log ("Entregar Mencion de participacio");
-
-});
+  }

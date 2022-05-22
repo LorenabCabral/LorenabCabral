@@ -17,4 +17,4 @@ btnEnviar.addEventListener("click", () => {
         console.log("Bienvenido");
       } else { 
         console.log("El usuario o clave son incorrectos");
-      };
+      });

@@ -7,3 +7,5 @@ if (numeroIngresado % 2 === 0) {
 } else {
   console.log("Numero Impar");
 }
+/*realizar un algoritmo que dado un numero entero ingresado por el usuario, viasualice en pantalla si es par o impar
+en el caso de ingresar un cero, se debe volver a pedir el numero por teclado (hasta que se ingrese un numero mayor que cero)*/
